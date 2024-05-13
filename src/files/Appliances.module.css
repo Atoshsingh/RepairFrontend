@@ -1,0 +1,121 @@
+
+body{
+    background-image: linear-gradient(100deg, #334155, #27272a 50%);
+    max-height: 1000px;
+    max-block-size: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 1000px; */
+}
+.divMain{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+    flex-direction: column;
+}
+.divInner1{
+    height:50px;
+    width:500px;
+    color: #f4f9ff;
+    border-radius:2px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divInner2{
+    height:450px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    background-color: #595a5f;
+    border-width: 10px;
+    border-radius:20px;
+}
+
+.mostInnerDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px;
+}
+label{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.selectBox{
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+textarea{
+    background-color: black;
+    margin-left:50px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+.addressInput{
+    background: black;
+    color: white;
+    margin-left: 25px;
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    padding-left:7px;
+
+}
+.addressInput:hover{
+    background-color:black;
+}
+.successDiv{
+    color: #000000;
+    margin: 50px;
+    margin-top: 180px;
+    padding: 20px;
+    background-color:#f4f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px 10px;
+    width: 380px;
+}
+.tickImage{
+    width: 150px;
+    height: 150px;
+}
+.superMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-weight: bold;
+    margin: 10px;
+    color:#0c1727;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttons{
+   /* background-color: red; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Fbuttos{
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px;
+}

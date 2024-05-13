@@ -1,0 +1,79 @@
+.headerContainer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1f2937;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+}
+.logo_div {
+    height: 20px;
+    flex: 4;
+    /* background-color: black; */
+}
+.login_div{
+    font-family: cursive;
+    width: 50px;
+
+}
+button{
+    font-family: cursive;
+}
+.sign_div{
+
+    width: 50px;
+
+}
+.logo{
+    width:80px;
+    height: 80px;
+    padding-left:30px;
+    /* margin-left:-50px; */
+   
+}
+.login{
+    margin: 10px 20px 10px 10px;
+    border-radius:5px ;
+    border: none;
+}
+.signup{
+    font-size: 13px;
+    margin: 10px 15px 10px 20px;
+    border-radius:5px ;
+    border: none;
+}
+
+.logout{
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+    cursor: pointer;
+    margin: 5px 20px 5px 5px ;
+}
+.headerBlackdiv{
+    width:80%;
+}
+.nav {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    /* background-color: red; */
+    font-family:Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    font-size: 15px;
+    margin: 20px;
+    /* background-color: red; */
+    /* width: 6; */
+}
+.activeNav {
+    /* Add styles for the active navigation link */
+    font-weight: bold;
+    color: blue;
+}
+.topName{
+    color: rgb(247, 247, 247);
+    font-family: cursive;
+}
