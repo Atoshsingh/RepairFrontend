@@ -13,7 +13,7 @@ import Appliances from "./files/Appliances.jsx";
 import { useEffect } from "react";
 
 function App() {
-
+  document.title="Aashutosh"
   const { authUser , setAutheUser , isLoggedIn ,  setIsLoggedIn } = useAuth();
  
   useEffect(()=>{
