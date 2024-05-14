@@ -12,9 +12,6 @@ import other from "../assets/other.svg";
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { useSearchParams, Link } from 'react-router-dom';
 
-
-
-
 function Home() {
     const [currentImage, setImage] = useState({ value: false, imageNumber: 0 });
 
