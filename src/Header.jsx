@@ -1,7 +1,8 @@
 import style from './HeaderCss.module.css'
 import logo from "../logo/logo-transparent-png.png"
 import { useAuth } from './context/AuthContext'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 
@@ -14,6 +15,16 @@ function Header() {
         setIsLoggedIn(false);
         setAutheUser(null);
         localStorage.removeItem("setUser");
+        toast.warn('logged out', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
     }
     return (
         <header >
@@ -44,6 +55,7 @@ function Header() {
                 }
                
             </div>
+            <ToastContainer />
         </header>
     )
 }

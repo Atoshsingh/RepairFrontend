@@ -33,9 +33,9 @@ function Home() {
         Our skilled team ensures quick and transparent fixes, using high-quality replacement parts.
         At Repair Pro, we simplify your digital life with expert laptop, phone, and appliance repairs, all while prioritizing your convenience.
         Trust us for a straightforward, competitive, and excellent repair experience – from pickup to delivery, your satisfaction is our commitment.`],
-        loop:true,
+        loop:2,
         typeSpeed: 2,
-        deleteSpeed: 5
+        deleteSpeed: 1
     })
     return (
         <>
