@@ -24,7 +24,7 @@ function Signup() {
     const submit = async () => {
         event.preventDefault();
         // console.log(values);
-        const res = await fetch("http://localhost:3000/user/signup", {
+        const res = await fetch("https://repairbackend.onrender.com/user/signup", {
             method: "POST",
             body: JSON.stringify(values),
             headers: {
