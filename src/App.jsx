@@ -33,10 +33,10 @@ function App() {
       path:"/",
       element:<Home/>
     },
-    {
-      path:"*",
-      element:<Home/>
-    },
+    // {
+    //   path:"*",
+    //   element:<Home/>
+    // },
     {
       path:"/appliances/:imageNumebr",
       element:<Appliances/>

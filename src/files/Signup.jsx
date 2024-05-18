@@ -73,8 +73,8 @@ function Signup() {
                     <form className={style.forms} onSubmit={submit}>
                         <input className={style.loginName} type="text" placeholder='username' onChange={setName} required />
                         <input className={style.loginEmail} type="email" placeholder='email' onChange={setEmail} required />
-                        <input className={style.loginPassword} type="text" placeholder='password' onChange={setPassword} required />
-                        <input className={style.loginConfirmPassword} type="text" onChange={setConfirm} placeholder='confirm password' required />
+                        <input className={style.loginPassword} type="password" placeholder='password' onChange={setPassword} required />
+                        <input className={style.loginConfirmPassword} type="password" onChange={setConfirm} placeholder='confirm password' required />
                         {/* <button className={style.buttones} onClick={submit}>Submit</button> */}
                         <button className={style.buttones}>Submit</button>
                         <div className={style.downer}>
