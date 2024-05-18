@@ -79,10 +79,10 @@ function Signin() {
                     <h1 className={style.heading}>
                         LOGIN
                     </h1>
-                    <form className={style.forms}>
+                    <form className={style.forms} onSubmit={submit}>
                         <input className={style.loginEmail} type="email" placeholder='email' onChange={setEmail} required />
                         <input className={style.loginPassword} type="text" placeholder='password' onChange={setPassword} required />
-                        <button className={style.buttones} onClick={submit}>Submit</button>
+                        <button className={style.buttones} >Submit</button>
                         <div className={style.downer}>
                          <label className={style.labeling}>Not a member ? </label>  <Link to="/signup" className={style.links}>
                                 Register

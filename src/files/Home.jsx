@@ -41,13 +41,9 @@ function Home() {
         <>
             <Header />
             <div className={style.mainDiv}>
-
                 <div className={style.greetingDiv}>
                     <span>{typeEffect}</span>
-
                 </div>
-
-
                 <div className={style.firstDiv}>
                     <div className={style.innerleft}>
                         <Link to="/appliances/1">  <img className={style.image} onClick={() => imageClick(1)} src={watch} style={{ width: 200, borderRadius: 20 }} /></Link>
