@@ -31,7 +31,7 @@
     border-right: none;
     border-left: none;
     padding: 3px 10px 5px 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     background-color: #ffffff84;
     transition:.2s;
 }
