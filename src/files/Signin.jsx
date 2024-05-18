@@ -82,8 +82,12 @@ function Signin() {
                         LOGIN
                     </h1>
                     <form className={style.forms} onSubmit={submit}>
-                        <input  className={style.loginEmail} type="email" placeholder="email" onChange={setEmail} required />
-                        <input id="pass" className={style.loginPassword} type="password" placeholder="password" onChange={setPassword} required />
+                        <input  className={style.loginEmail} type="email" placeholder="email" onChange={setEmail} required 
+                        name="email"  
+                        autoComplete="email"/>
+                        <input id="pass" className={style.loginPassword} type="password" placeholder="password" onChange={setPassword} required 
+                        name="password"
+                        autoComplete="password"/>
                         <button className={style.buttones} >Submit</button>
                         <div className={style.downer}>
                          <label className={style.labeling}>Not a member ? </label>  <Link to="/signup" className={style.links}>
