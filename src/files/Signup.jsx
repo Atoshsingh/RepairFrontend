@@ -60,7 +60,7 @@ function Signup() {
                 
             });
             setValue({name:"", email: "", password: "", confirm_password: "" })
-            // navigate("/login")
+            navigate("/login")
         
         }
     }
