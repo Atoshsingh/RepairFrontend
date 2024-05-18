@@ -197,7 +197,7 @@ function Appliances() {
             </select>
           </div>
           {/* //-------------------------- */}
-
+              
           <div className={style.mostInnerDiv} >
             <label>Address : </label>
             <input className={style.addressInput} value={address} type='text' onChange={setCurrAddress} placeholder="state.. , district.. , pincode.." />
