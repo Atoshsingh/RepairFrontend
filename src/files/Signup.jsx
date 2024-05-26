@@ -48,20 +48,19 @@ function Signup() {
             setValue({ name: "", email: "", password: "", confirm_password: "" })
         }
         if (res.status == 200) {
-            console.log("getting 200");
-            toast.success("Account created try to login..", {
-                position: "top-right",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-                theme: "light",
-
-            });
+            // console.log("getting 200");
+            // toast.success("Account created try to login..", {
+            //     position: "top-right",
+            //     autoClose: 5000,
+            //     hideProgressBar: false,
+            //     closeOnClick: true,
+            //     pauseOnHover: true,
+            //     draggable: true,
+            //     progress: undefined,
+            //     theme: "light",
+            // });
             // setValue({ name: "", email: "", password: "", confirm_password: "" })
-            alert("✅ Account created try to login..")
+            confirm("✅ Account created try to login..")
             navigate("/login")
 
         }
@@ -75,9 +74,9 @@ function Signup() {
                 <form className={style.forms} onSubmit={submit}>
                     <input className={style.loginName} value={values.name} type="text" placeholder='username' onChange={setName} required autoComplete='name'
                         name="name" />
-                    <input className={style.loginEmail} type="email" placeholder='email' onChange={setEmail} required autoComplete='email' 
-                    name="email" />
-                    <input className={style.loginPassword} type="password" placeholder='password' onChange={setPassword} required autoComplete='current-password' name="password"/>
+                    <input className={style.loginEmail} type="email" placeholder='email' onChange={setEmail} required autoComplete='email'
+                        name="email" />
+                    <input className={style.loginPassword} type="password" placeholder='password' onChange={setPassword} required autoComplete='current-password' name="password" />
                     <input className={style.loginConfirmPassword} type="password" onChange={setConfirm} placeholder='confirm password' required autoComplete='current-password' name="password" />
                     {/* <button className={style.buttones} onClick={submit}>Submit</button> */}
                     <button className={style.buttones}>Submit</button>
